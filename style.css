@@ -1,0 +1,39 @@
+
+
+.body{
+	font-family: Arial, Helvetica;
+	background: #e8e8e8;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+	background: #dce1e1;
+	width: 90%;
+	max-width: 1000px;
+    margin:auto;
+    
+}
+
+
+
+.menu li a {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.8);
+	padding: 20px;	
+	display: block;
+}
+
+.menu li {
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	display: inline-block;
+	background:#ef8354 ;
+}
+
+.section[id]{
+	scroll-margin-top: 70px;
+}
